@@ -1,0 +1,19 @@
+GET http://localhost:5000/hw
+
+### 
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "xeon1",
+    "password": "xeon1"
+}
+
+###
+GET  http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "xeon1",
+    "password": "xeon1"
+}
